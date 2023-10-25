@@ -1,0 +1,25 @@
+.header-hours-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: .5rem;
+}
+
+.header-hours-container div {
+    background-color: lightblue;
+    border: 1px solid gray;
+    padding: 2rem;
+    height: 200px;
+}
+
+.hours-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: .5rem;
+}
+
+.hours-container div {
+    background-color: lightpink;
+    border: 1px solid gray;
+    height: 200px;
+    padding: 2rem;
+}
